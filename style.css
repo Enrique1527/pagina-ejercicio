@@ -1,0 +1,308 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+header {
+    background-color: #ff6347;
+    padding: 0px;
+    width: 100%;
+    height: 50px;
+    margin:0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    box-shadow: 0px 10px 5px rgba(0, 0, 0, 0.2);
+}
+.button-inicio {
+  padding: 15px 20px;
+  background-color: #ff6347;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button-inicio:hover {
+  color: black;
+  background-color: #ffffff;
+}
+
+.button-inicio:active {
+  background-color: #ffffff;
+}
+.titles{
+    background-color: #ff6347;
+    padding: 65px 0px 10px 0px;
+}
+.title {
+    text-align: center;
+    font-family: "Gill Sans Extrabold", Helvetica, sans-serif;
+    font-size: 40px;
+    color: white;
+    font-weight: normal;
+    padding: 65px 0px 10px 0px;
+}
+.subtitle {
+    text-align: center;
+    font-family: "Gill Sans Extrabold", Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    color: white;
+}
+.button-center{
+    padding: 35px 40px;
+    text-align: center;
+}
+.button-titles {
+  padding: 15px 20px;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+}
+.content{
+    display: flex;
+}
+.text-content{
+    width: 60%;
+}
+.img-content{
+    padding: 100px 20px 10px 8px;
+    width: 40%;
+}
+.title-content{
+    font-family: "Gill Sans Extrabold", Helvetica, sans-serif;
+    font-size: 30px;
+    color: black;
+    font-weight: normal;
+    padding: 45px 20px 10px 300px;
+}
+.first-p-content-one{
+    padding: 25px 20px 10px 300px;
+    font-family: "Gill Sans Extrabold", Helvetica, sans-serif;
+    font-size: 15px;
+    color: black;
+    padding: 25px 20px 10px 300px;
+}
+.second-p-content-one{
+    padding: 25px 10px 60px 300px;
+    font-family: "Gill Sans Extrabold", Helvetica, sans-serif;
+    font-size: 15px;
+    color: black;
+}
+.content-two{
+    display: flex;
+    background-color: #eeeeee;
+}
+.img-content-two{
+    padding: 65px 20px 10px 300px;
+}
+.text-content-two{
+    padding: 25px 20px 60px 30px;
+}
+.title-content-two{
+    font-family: "Gill Sans Extrabold", Helvetica, sans-serif;
+    font-size: 30px;
+    color: black;
+    font-weight: normal;
+    padding: 0px 20px 20px 0px;
+}
+.first-p-content-two{
+    padding: 0px 380px 20px 0px;
+    font-family: "Gill Sans Extrabold", Helvetica, sans-serif;
+    font-size: 15px;
+    color: black;
+}
+.second-p-content-two{
+    padding: 0px 380px 20px 0px;
+    font-family: "Gill Sans Extrabold", Helvetica, sans-serif;
+    font-size: 15px;
+    color: black;
+}
+footer{
+    text-align: center;
+}
+.text-footer{
+    background-color: #333333;
+    font-family: "Gill Sans Extrabold", Helvetica, sans-serif;
+    font-size: 25px;
+    color: white;
+    font-weight: normal;
+    padding: 60px 40px 60px 0px;
+}
+.social-media{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 40px 0px 0px 0px;
+}
+.img-fb{
+    padding: 0px 0px 0px 0px;
+    transform: scale(0.2);
+    height: auto;
+    margin: 0;
+    padding: 0;
+    width: 1%;
+}
+.credits{
+    font-family: "Gill Sans Extrabold", Helvetica, sans-serif;
+    font-size: 10px;
+    color: gray;
+    font-weight: normal;
+    padding: 0px 0px 60px 0px;
+}
+
+.navbar {
+  display: none;
+  justify-content: space-between;
+  align-items: right;
+  padding: 10px;
+  position: relative;
+}
+
+.menu-toggle {
+  display: none;
+}
+
+@media(max-width: 600px) {
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.button-menu{
+    display: none;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  position: relative;
+}
+  .menu {
+    display: none;
+    flex-direction: column;
+    background-color: #ff6347;
+    width: 100%;
+    position: absolute;
+    top: 50px;
+    left: 0;
+  }
+
+  .menu li {
+    text-align: left;
+    padding: 10px 0;
+    font-family: "Gill Sans Extrabold", Helvetica, sans-serif;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+    background-color: #ff6347;
+    width: 100%;
+
+  }
+
+  .menu-toggle:checked + .menu-icon + .menu {
+    display: flex; 
+  }
+
+  .menu-icon {
+    font-size: 34px;
+    display: block; 
+    cursor: pointer;
+    color: white;
+
+  }
+
+  .menu a {
+    padding: 10px;
+    display: block;
+  }
+  .titles{
+    background-color: #ff6347;
+    padding: 65px 0px 0px 0px;
+   
+   }
+    .content{
+        display: grid;
+    }
+.title-content{
+    font-family: "Gill Sans Extrabold", Helvetica, sans-serif;
+    font-size: 30px;
+    color: black;
+    font-weight: normal;
+    padding: 20px 20px 0px 20px;
+}
+.first-p-content-one{
+    font-family: "Gill Sans Extrabold", Helvetica, sans-serif;
+    font-size: 15px;
+    color: black;
+    padding: 20px 0px 0px 20px;
+    width: 100%;
+    margin: 0;
+}
+.first-p-content-one{
+    font-family: "Gill Sans Extrabold", Helvetica, sans-serif;
+    font-size: 15px;
+    color: black;
+    padding: 20px 0px 0px 20px;
+    width: 100%;
+    margin: 0;
+}
+.second-p-content-one{
+    font-family: "Gill Sans Extrabold", Helvetica, sans-serif;
+    font-size: 15px;
+    color: black;
+    padding: 20px 0px 0px 20px;
+    width: 100%;
+    margin: 0;
+}
+.text-content{
+    width: 90%;
+}
+.img-content{
+    align-items: center;
+    padding: 10px 20px 10px 90px;
+    width: 100%;
+}
+.content-two{
+     display: grid;
+    background-color: #eeeeee;
+}
+.img-content-two{
+    align-items: center;
+    padding: 10px 20px 10px 90px;
+    width: 100%;
+}
+.text-content-two{
+    padding: 25px 20px 60px 30px;
+    width: 90%;
+}
+.first-p-content-two{
+    padding: 0px 30px 20px 0px;
+    font-family: "Gill Sans Extrabold", Helvetica, sans-serif;
+    font-size: 15px;
+    color: black;
+}
+.second-p-content-two{
+    padding: 0px 30px 20px 0px;
+    font-family: "Gill Sans Extrabold", Helvetica, sans-serif;
+    font-size: 15px;
+    color: black;
+}
+.img-fb{
+    padding: 0px 0px 0px 0px;
+    transform: scale(0.2);
+    height: auto;
+    margin: 0;
+    padding: 0;
+    width: 5%;
+}
+body{
+width: 100%;
+}
+}
+
+
